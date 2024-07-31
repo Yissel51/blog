@@ -12,6 +12,10 @@ body {
     padding: 20px;
 }
 
+p {
+    margin-bottom: 20px; /* Espacio entre párrafos */
+}
+
 header {
     background: #ffffff;
     color: #333333;
@@ -60,4 +64,23 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+article
+.transparent-button {
+    background: none;
+    border: none;
+    color: black; /* Cambia esto al color que desees para el texto */
+    font-size: 20px; /* Ajusta el tamaño de la fuente según prefieras */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    cursor: pointer;
+    padding: 2px; /* Ajusta el espacio alrededor del texto */
+    text-decoration: none;
+}
+
+.transparent-button:hover {
+    color: #c2c2c2; /* Color del texto al pasar el cursor por encima */
+}
+
+.transparent-button:focus {
+    outline: none; /* Quita el borde de enfoque del botón */
 }
